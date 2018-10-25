@@ -15,5 +15,6 @@ it("should be square of a method", () => {
 
 it("should be 12", () => {
   // expect(12).toNotBe(123);
-  expect({ name: "andrew" }).toEqual({ name: "andrew" });
+  //expect({ name: "andrew" }).toEqual({ name: "andrew" });
+  expect([2, 3, 4]).toInclude(2);
 });
